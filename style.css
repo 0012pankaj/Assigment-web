@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 70%;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+ul{
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: azure;
+}
+
+header{
+    background-color:  black;
+   display: flex;
+   justify-content: space-around
+   ;
+   padding: 0px;
+   margin: 0px 0px;
+   text-align: center;
+   
+}
+.navb li{
+
+   display: inline-block;
+   padding: 20px;
+   font-size: 27px;
+
+}
+h3{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 5px;
+}
+.logo{
+    margin-top: 10px;
+
+}
+.image{
+    display: flex;
+
+}
+.sec1{
+    background-image: url(/img/bgm.jpg);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    border: 2px saddlebrown;
+
+}
+
+.cont1{
+    position:relative;
+    left:44vw;
+}
+.para1{
+font-size:6rem;
+font-weight: 500;
+width: 60vw;
+height: 20vh;
+}
+
+.but{
+    display: inline;
+    position: relative;
+    top: 9vh;
+       border: 3px solid;
+    border-radius: 25px ;
+    padding: 15px 35px;
+
+}
+.but a{
+    text-decoration: none;
+    font-size: large;
+}
+h2{
+    font-size: 20px;
+}
+.faltu{
+    font-size: medium;
+}
+.con2{
+display: flex;
+}
+.why{
+    align-items: center;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 40%;
+}
+.cred{
+    margin-top: 10px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: blueviolet;
+}
+.cred div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    color: aliceblue;
+}
+.last{
+    background-color: aliceblue;
+}
+.last div{
+    background-color: gainsboro;
+}
